@@ -1,12 +1,24 @@
 {
-  "name": "@nova/eslint-config",
+  "name": "@nova/config",
   "version": "0.0.0",
   "type": "module",
   "private": true,
   "exports": {
-    "./base": "./base.js",
-    "./next-js": "./next.js",
-    "./react-internal": "./react-internal.js"
+    "./eslint/base": {
+      "types": "./eslint/base.d.ts",
+      "default": "./eslint/base.js"
+    },
+    "./eslint/next-js": {
+      "types": "./eslint/next.d.ts",
+      "default": "./eslint/next.js"
+    },
+    "./eslint/react-internal": {
+      "types": "./eslint/react-internal.d.ts",
+      "default": "./eslint/react-internal.js"
+    },
+    "./typescript/base": "./typescript/base.json",
+    "./typescript/nextjs": "./typescript/nextjs.json",
+    "./typescript/react-library": "./typescript/react-library.json"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",

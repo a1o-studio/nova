@@ -1,5 +1,5 @@
 {
-  "extends": "@nova/typescript-config/nextjs.json",
+  "extends": "@nova/config/typescript/nextjs",
   "compilerOptions": {
     "plugins": [
       {
