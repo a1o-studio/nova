@@ -77,4 +77,3 @@ export default config
 - `@nova/config/typescript/base` - 基础 TypeScript 配置
 - `@nova/config/typescript/nextjs` - Next.js TypeScript 配置
 - `@nova/config/typescript/react-library` - React 库 TypeScript 配置
-
